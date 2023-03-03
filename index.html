@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js- day3</title>
+</head>
+<body>
+    <form id="calculator">
+        <input type="text" id="calc_field" name="calc_field"> <br>
+        <input type="button" id="one" name="one" value="1" onclick = "calculator.calc_field.value += '1' ">
+        <input type="button" id="two" name="two" value="2" onclick = "calculator.calc_field.value += '2' ">
+        <input type="button" id="add" name="add" value="+" onclick = "calculator.calc_field.value += '+' ">
+        <input type="button" id="equal" name="equal" value="=" 
+        onclick = "calculator.calc_field.value = eval(calculator.calc_field.value)">
+        <input type="button" id="erase" name="erase" value="C" 
+        onclick = "calculator.calc_field.value = ''">
+    </form>
+
+</body>
+</html>
+
